@@ -3,6 +3,4 @@ services:
     build: ./Docker
     ports:
       - "3003:3000"
-      - "8082:80"
-    image: "nginx"
     restart: always
